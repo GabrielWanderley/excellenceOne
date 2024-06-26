@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
         <div className='buttonStart'>
-          <button> <img src={setaBranca} /> Fale conosco</button>
+          <button> <img alt='descrição' src={setaBranca} /> Fale conosco</button>
         </div>
 
         <div className='mainSkills '>
@@ -82,7 +82,7 @@ function App() {
                 <p>
                   nosso dentista Guilherme Wanderley, expecialista em lestes de contato ira te dar o tão sonhado sorriso perfeito
                 </p>
-                <img src={setaSkill} />
+                <img alt='descrição' src={setaSkill} />
               </div>
             </div>
 
@@ -91,7 +91,7 @@ function App() {
                 <h1>Aparelho</h1>
                 <p>
                   nosso tratamento ortodontico inovador, que promete entregar o seu melhor sorriso, o mais rapido possivel              </p>
-                <img src={setaSkill} />
+                <img alt='descrição' src={setaSkill} />
               </div>
             </div>
 
@@ -100,7 +100,7 @@ function App() {
                 <h1>Emplantes</h1>
                 <p>
                   não tenha mais vergonha de sorrir, venha  para excellence e volte a ter seu sorriso maravilhoso              </p>
-                <img src={setaSkill} />
+                <img alt='descrição' src={setaSkill} />
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ function App() {
               nosso dentista Guilherme Wanderley, expecialista em lestes de contato ira te dar o tão sonhado sorriso perfeito nosso dentista Guilherme Wanderley, expecialista em lestes de contato ira te dar o tão sonhado sorriso perfeito nosso dentista Guilherme Wanderley, expecialista em lestes de contato ira te dar o tão sonhado sorriso perfeito nosso dentista Guilherme Wanderley, expecialista em lestes de contato ira te dar o tão sonhado sorriso perfeito
             </p>
           </div>
-          <img src={bruna} style={{ float: 'right' }}  />
+          <img alt='descrição' src={bruna} style={{ float: 'right' }}  />
         </div>
 
         <div className='allSkils' data-aos="fade-right" >
@@ -133,7 +133,7 @@ function App() {
                 <h3>Otimo atendimento</h3>
                 <p>uisdafhiasfhdiuhasdfidasfnasdfjnaskdfnaskjdfnsajknfasjfkdnasjfndfjkansdflkasjnjkndsajknfajksnfdakjndfaskjnfdasjkfnasjknfasdfkjlnasfdsafsadfsafasfasdfasfsafsafdfsadfsadfsafdasfdasfdafsasdfsdafsadfasfsafsafdsafsafdasdfsdfsdfsfdsdfdfs</p>
                 <div className='pacienteImg'>
-                  <img src={bruna} />
+                  <img alt='descrição' src={bruna} />
                   <h3>Ana Carla</h3>
                 </div>
               </div>
@@ -143,7 +143,7 @@ function App() {
                 <h3>Otimo atendimento</h3>
                 <p>uisdafhiasfhdiuhasdfidasfnasdfjnaskdfnaskjdfnsajknfasjfkdnasjfndfjkansdflkasjnjkndsajknfajksnfdakjndfaskjnfdasjkfnasjknfasdfkjlnasfdsafsadfsafasfasdfasfsafsafdfsadfsadfsafdasfdasfdafsasdfsdafsadfasfsafsafdsafsafdasdfsdfsdfsfdsdfdfs</p>
                 <div className='pacienteImg'>
-                  <img src={bruna} />
+                  <img alt='descrição' src={bruna} />
                   <h3>Ana Carla</h3>
                 </div>
               </div>
@@ -153,7 +153,7 @@ function App() {
                 <h3>Otimo atendimento</h3>
                 <p>uisdafhiasfhdiuhasdfidasfnasdfjnaskdfnaskjdfnsajknfasjfkdnasjfndfjkansdflkasjnjkndsajknfajksnfdakjndfaskjnfdasjkfnasjknfasdfkjlnasfdsafsadfsafasfasdfasfsafsafdfsadfsadfsafdasfdasfdafsasdfsdafsadfasfsafsafdsafsafdasdfsdfsdfsfdsdfdfs</p>
                 <div className='pacienteImg'>
-                  <img src={bruna} />
+                  <img alt='descrição' src={bruna} />
                   <h3>Ana Carla</h3>
                 </div>
               </div>
@@ -166,7 +166,7 @@ function App() {
         <div className='locationDiv'>
           <h1>localização</h1>
           <div className='locationVideo' data-aos="fade-right" >
-            <img src={bruna} />
+            <img alt='descrição' src={bruna} />
             <h3>R. Marquês de Olinda - Sirinhaém, PE, 55580-000</h3>
           </div>
           <div className='locationMap' data-aos="fade-left">
@@ -191,18 +191,18 @@ function App() {
           <h1>Contatos</h1>
          <div className='contactsContent' data-aos="fade-right">
           <div className='telefone'>
-           <img src={telefone}/>
+           <img alt='descrição' src={telefone}/>
            <h3>81 985815147</h3>
           </div>
 
           <div className='whats' data-aos="fade-right">
-           <img src={whats}/>
-           <h3><a>WhatsApp</a></h3>
+           <img alt='descrição' src={whats}/>
+           <h3><a href='https://www.google.com.br/'>WhatsApp</a></h3>
           </div>
 
           <div className='insta' data-aos="fade-right">
-           <img src={insta}/>
-           <h3><a>Instagram</a></h3>
+           <img alt='descrição' src={insta}/>
+           <h3><a href='https://www.google.com.br/'>Instagram</a></h3>
           </div>
          </div>
        </div>

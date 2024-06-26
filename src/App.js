@@ -182,7 +182,7 @@ function App() {
                 </Popup>
               </Marker>
             </MapContainer>
-            <a src='https://www.google.com.br/maps/place/Excellence+odontologia/@-8.5919594,-35.1146561,20z/data=!4m6!3m5!1s0x7aa8509e378b07f:0xa0a76caa2d67135a!8m2!3d-8.591905!4d-35.1148077!16s%2Fg%2F11vbf4lkjq?entry=ttu'>
+            <a href='https://maps.app.goo.gl/UzA8ZNk4h7PwsFTW8'>
               clique aqui e tenha a localização pelo google maps
             </a>
           </div>

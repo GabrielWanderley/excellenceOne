@@ -10,7 +10,9 @@ body {
   a{
     color: var(--blueColor);
     cursor: pointer;
-    text-decoration: none !important;
+    text-decoration: none;
+    -webkit-color: var(--blueColor);
+    -webkit-text-decoration: none;
   }
 }
 

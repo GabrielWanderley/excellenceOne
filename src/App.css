@@ -85,7 +85,7 @@
     align-items: center;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.397);
     transition: 0.5s;
-
+    -webkit-width:156px;
     -webkit-background-color: var(--yellowColor);
 
   }

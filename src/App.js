@@ -1,6 +1,6 @@
 import './App.css';
-import first from './assets/4490547-uhd_3840_2160_25fps.mp4';
-import second from './assets/6529156-uhd_2160_4096_25fps.mp4';
+import first from './assets/4490547-uhd-3840-2160-25fps_aEW5fVZS.mp4';
+import second from './assets/6529156-uhd-2160-4096-25fps_F4I8VXpu.mp4';
 import setaBranca from './assets/setaBranca.png'
 import setaSkill from './assets/setaSkill.png'
 import bruna from './assets/bruna.png'

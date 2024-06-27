@@ -65,38 +65,32 @@
   margin: 0 auto;
   max-width: 300px;
   display: flex;
-  img{
-    width: 30px;
-    margin-right: 10px;
-    -webkit-width: 30px;
-
-  }
-  button{
-    cursor: pointer;
-    background-color: var(--yellowColor);
-    font-weight: 600;
-    font-family: "Kodchasan", sans-serif;
-    border: none;
-    border-radius: 20px;
-    width: 156px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.397);
-    transition: 0.5s;
-    -webkit-width:156px;
-    -webkit-background-color: var(--yellowColor);
-
-  }
-  button:hover{
-    background-color: var(--blackColor);
-    color: var(--yellowColor);
-    -webkit-background-color: var(--blackColor);
-
-  }
+}
+.buttonStart img {
+  width: 30px;
+  margin-right: 10px;
 }
 
+.buttonStart button {
+  cursor: pointer;
+  background-color: var(--yellowColor);
+  font-weight: 600;
+  font-family: "Kodchasan", sans-serif;
+  border: none;
+  border-radius: 20px;
+  width: 156px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.397);
+  transition: 0.5s;
+}
+
+.buttonStart button:hover {
+  background-color: var(--blackColor);
+  color: var(--yellowColor);
+}
 
 .mainSkills{
   padding-top: 100px;

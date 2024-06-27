@@ -68,6 +68,8 @@
   img{
     width: 30px;
     margin-right: 10px;
+    -webkit-width: 30px;
+
   }
   button{
     cursor: pointer;
@@ -83,10 +85,15 @@
     align-items: center;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.397);
     transition: 0.5s;
+
+    -webkit-background-color: var(--yellowColor);
+
   }
   button:hover{
     background-color: var(--blackColor);
     color: var(--yellowColor);
+    -webkit-background-color: var(--blackColor);
+
   }
 }
 

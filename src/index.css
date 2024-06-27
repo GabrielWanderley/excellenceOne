@@ -7,13 +7,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--blackColor);
-  a{
-    color: var(--blueColor);
-    cursor: pointer;
-    text-decoration: none;
-    -webkit-color: var(--blueColor);
-    -webkit-text-decoration: none;
-  }
+}
+
+body   a{
+  color: var(--blueColor);
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-color: var(--blueColor);
+  -webkit-text-decoration: none;
 }
 
 code {

@@ -74,7 +74,7 @@
 .buttonStart button {
   cursor: pointer;
   background-color: var(--yellowColor);
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Kodchasan", sans-serif;
   border: none;
   border-radius: 20px;

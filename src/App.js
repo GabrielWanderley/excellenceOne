@@ -64,7 +64,7 @@ function App() {
           <h1>Se cuide conosco</h1>
           <h1 className='h12' >consultorio Execellence</h1>
           <div className='secondVideoDiv ' data-aos="fade-left">
-            <video autoPlay loop muted >
+            <video autoPlay loop muted controls={false} >
               <source src={second} type="video/mp4" />
               seu navegador não suporta isso
             </video>

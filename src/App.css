@@ -124,15 +124,16 @@
   width: 170px;
   height: 234px;
   padding-top: 5px;
-  h1{
-    font-weight: 400;
-    font-size: 24px;
-  }
 
-  p{
-    font-weight: 400;
-    font-size: 15px;
-  }
+}
+.skillMainText   h1{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.skillMainText  p{
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .aboutWe{
@@ -145,22 +146,25 @@
   float: left;
   width: 350px;
   text-align: left;
-   span{
-    color: var(--yellowColor);
-    font-size: 48px;
-    font-weight: 200;
-    -webkit-color: var(--yellowColor);
-    -webkit-font-size: 48px;
-    -webkit-font-weight: 200;
-   }
-   h1{
-    font-weight: 400;
-   }
-   p{
-    font-size: 15px;
-    font-weight: 500;
-   }
 }
+
+.aboutText span{
+  color: var(--yellowColor);
+  font-size: 48px;
+  font-weight: 200;
+  -webkit-color: var(--yellowColor);
+  -webkit-font-size: 48px;
+  -webkit-font-weight: 200;
+ }
+
+ .aboutText h1{
+  font-weight: 400;
+ }
+
+ .aboutText p{
+  font-size: 15px;
+  font-weight: 500;
+ }
 
 .allSkils{
   margin: 0 auto;
@@ -172,10 +176,12 @@
   border-radius: 30px;
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.397);
 
-  h1{
-    font-weight: 400;
-    font-size: 32px;
-  }
+
+}
+
+.allSkils h1{
+  font-weight: 400;
+  font-size: 32px;
 }
 
 .allSkilsContent{
@@ -185,30 +191,33 @@
   grid-gap: 6px; 
   display: flex;
   flex-wrap: wrap;
-  p{
-    background-color: var(--blueColor);
-    -webkit-background-color: var(--blueColor);
-    min-width: 90px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    font-size: 12px;
-    border-radius: 10px;
-    color: var(--whiteColor);
-  }
+}
+
+.allSkilsContent p{
+  background-color: var(--blueColor);
+  -webkit-background-color: var(--blueColor);
+  min-width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 10px;
+  color: var(--whiteColor);
 }
 
 .clients{
   margin: 0 auto;
   max-width: 950px;
   margin-top: 100px;
- h1{
+
+}
+
+.clients h1{
   font-size: 60px;
   font-weight: 600;
  }
-}
 
 .paciente{
   min-width: 312px;
@@ -229,15 +238,16 @@
   width: 280px;
   height: 220px;
   padding-top: 2px;
-  p{
-    font-size: 12px;
-    font-weight: 500;
-    text-align: left;
-  }
-}
-.pacienteImg{
 
-  img{
+}
+
+.pacientContent p{
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.pacienteImg img{
     height: 64px;
     width: 63px;
     border-radius: 100%;
@@ -247,12 +257,15 @@
     -webkit-border-radius: 100%;
     -webkit-float: left;
   }
-  h3{
-    text-align: left;
-    float: left;
-    margin-left: 20px;
-  }
+ 
+
+
+.pacienteImg h3{
+  text-align: left;
+  float: left;
+  margin-left: 20px;
 }
+
 .slick-slide {
   padding: 0 10px; /* Adicione o espaçamento desejado entre os slides */
 }
@@ -274,23 +287,28 @@
   max-width: 800px;
   padding-top: 100px;
   text-align: left;
-  h1{
-    font-weight: 400;
-    font-size: 48px;
-  }
+
 }
+
+.locationDiv h1{
+  font-weight: 400;
+  font-size: 48px;
+}
+
 .locationVideo{
   float: left;
   max-width: 320px;
   text-align: left;
-  img{
-    height: 294px;
-    width: 400px;
-  }
-  h3{
-    font-size: 20px;
-    font-weight: 500;
-  }
+}
+
+.locationVideo img{
+  height: 294px;
+  width: 400px;
+}
+
+.locationVideo h3{
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .locationMap{
@@ -299,14 +317,16 @@
   padding: 0 50px; 
   float: right;
   text-align: left;
-  a{
-    cursor: pointer;
-    color: var(--blueColor);
-    font-size: 20px;
-    font-weight: 500;
-  }
-
+ 
 }
+
+.locationMap a{
+  cursor: pointer;
+  color: var(--blueColor);
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .map{
   height: 294px;
   width: 400px;
@@ -318,10 +338,12 @@
   max-width: 800px;
   clear: both;
   padding-top: 100px;
-  h1{
-    font-size: 48px;
-    font-weight: 400;
-  }
+ 
+}
+
+.contacts h1{
+  font-size: 48px;
+  font-weight: 400;
 }
 
 .contactsContent{
@@ -332,10 +354,12 @@
   align-items: center; 
   max-width: 800px;
   flex-wrap: wrap; 
-  h3{
-    font-size: 20px;
-    font-weight: 600;
-  }
+ 
+}
+
+.contactsContent h3{
+  font-size: 20px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -371,28 +395,33 @@
     margin: 0 auto;
     max-width: 320px;
     margin-top: 100px;
-    img{
-      float: none;
-    }
+    
+  }
+
+  .aboutWe img{
+    float: none;
   }
   .aboutText{
     float: left;
     width: 310px;
     text-align: none;
-     span{
-      color: var(--yellowColor);
-      font-size: 48px;
-      font-weight: 200;
-     }
-     h1{
-      font-weight: 400;
-     }
-     p{
-      font-size: 15px;
-      font-weight: 500;
-     }
      
   }
+
+  .aboutText span{
+    color: var(--yellowColor);
+    font-size: 48px;
+    font-weight: 200;
+   }
+
+   .aboutText h1{
+    font-weight: 400;
+   }
+
+   .aboutText p{
+    font-size: 15px;
+    font-weight: 500;
+   }
 
   .allSkils{
     max-width: 320px;
@@ -436,10 +465,12 @@
     text-align: center;
     float: none;
     max-width: 320px;
-    img{
-      height: 294px;
-      width: 300px;
-    }
+   
+  }
+
+  .locationVideo img{
+    height: 294px;
+    width: 300px;
   }
 
   .locationMap{

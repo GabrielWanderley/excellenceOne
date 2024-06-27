@@ -10,6 +10,7 @@ body {
   a{
     color: var(--blueColor);
     cursor: pointer;
+    text-decoration: none !important;
   }
 }
 
